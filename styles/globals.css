@@ -1,0 +1,13 @@
+html{
+    opacity: 0;
+    animation: anim 1s ease forwards 1s;
+}
+
+@keyframes anim {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
