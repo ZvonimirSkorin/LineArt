@@ -1,0 +1,67 @@
+$color:#F87700 ;
+
+
+.buttonFill{
+    padding:0.8rem 1.5rem;
+    border-style: solid;
+    color:$color;
+    font-weight: 700;
+    border-color: $color;
+    display: inline-flex;
+    gap:0.5rem;
+    
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition-duration: 0.3s;
+  &:hover{
+    color:black;
+}
+  &:hover .hiddenWave{
+    transform: translate(0) rotate(0);
+}
+  &:hover .hiddenWave2{
+    transform: translate(0) rotate(0);
+}
+
+}
+.reverse{
+  @media screen and (max-width:700px) {
+    margin:0 auto;
+    margin-left: auto;
+  }
+  &:hover{
+    color:white !important;
+    
+}
+}
+.black{
+  background-color: black;
+}
+
+.hiddenWave{
+position: absolute;
+width: 120%;
+height: 100%;
+z-index: -1;
+top:0;
+left:0;
+background-color: $color;
+transform: translateY(120%) rotate(-5deg);
+transition-duration: 0.4s;
+
+}
+.hiddenWave2{
+position: absolute;
+width: 120%;
+height: 100%;
+z-index: 0;
+top:0;
+left:0;
+background-color: black;
+transform: translateY(120%) rotate(-5deg);
+transition-duration: 0.4s;
+
+}

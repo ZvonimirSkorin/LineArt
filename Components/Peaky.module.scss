@@ -1,0 +1,30 @@
+.Peaky{
+    stroke-dasharray: 3817.708740234375px;
+    stroke-dashoffset: 3817.708740234375px;
+    animation: anim 8s ease forwards 1s;
+    width:50%;
+    z-index: -2;
+    max-width: 500px;
+    max-height: 80vh;
+    height: 600px;
+    @media screen and (min-width:1000px) {
+        max-width: 50%;
+        height: 60vh;
+    }
+    transition-duration: 1s;
+    position:absolute;
+    right:1rem;
+    bottom:1rem;
+    @media screen and (min-width:900px) {
+        top:4rem;
+        height: 70vh;
+    }
+}
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 0px; 
+    }
+   
+   
+}
