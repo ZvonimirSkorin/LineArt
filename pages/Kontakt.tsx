@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                 mini.oneline.art@gmail.com
               </a>
             </div>
-            <div style={{ textAlign: "center", color: "darkblue" }}>
+            <div style={{ textAlign: "center" }}>
               <section>
                 <strong style={{ fontSize: "1.3rem" }}>VAŽNO!</strong>
               </section>

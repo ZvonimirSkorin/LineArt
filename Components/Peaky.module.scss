@@ -7,17 +7,19 @@
     max-width: 500px;
     max-height: 80vh;
     height: 600px;
-    @media screen and (min-width:1000px) {
-        max-width: 50%;
-        height: 60vh;
-    }
     transition-duration: 1s;
     position:absolute;
     right:1rem;
     bottom:1rem;
-    @media screen and (min-width:900px) {
-        top:4rem;
+    @media screen and (max-width:900px) {
+        top:15%;
         height: 70vh;
+        width:100%;
+    }
+    @media screen and (min-width:900px) {
+        max-width: 50%;
+        height: 100vh;
+        top:10%;
     }
 }
 

@@ -13,14 +13,35 @@ export const IndexAbout: React.FC = () => {
         metus. Suspendisse varius, quam at mattis maximus, odio libero venenatis felis, ut dapibus diam odio quis lectus. Donec maximus felis id odio
         ultricies, eget convallis lorem consequat.
       </p>
-      <section style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-        <div className="buttonFill reverse" onClick={() => {}}>
-          Naruči <FontAwesomeIcon width="16" icon={faChevronRight} />
-          <div className="hiddenWave"></div>
+      <section style={{ display: "flex", alignItems: "center", gap: "1rem", marginTop: "1rem", cursor: "pointer", maxWidth: 500 }}>
+        <div
+          style={{
+            borderColor: "#635D5D ",
+            backgroundColor: "#F87700  ",
+            color: "white",
+            width: "50%",
+            fontSize: "1.4rem",
+            textAlign: "center",
+            padding: "0.4rem",
+          }}
+          onClick={() => {}}
+        >
+          Naruči
         </div>
-        <div style={{ borderColor: "#635D5D ", color: "#635D5D " }} className="buttonFill reverse" onClick={() => {}}>
-          Galerija <FontAwesomeIcon width="16" icon={faChevronRight} />
-          <div style={{ backgroundColor: "#635D5D " }} className="hiddenWave"></div>
+        <div
+          style={{
+            cursor: "pointer",
+            borderColor: "#635D5D ",
+            backgroundColor: "#635D5D ",
+            color: "white",
+            width: "50%",
+            fontSize: "1.4rem",
+            textAlign: "center",
+            padding: "0.4rem",
+          }}
+          onClick={() => {}}
+        >
+          Galerija
         </div>
       </section>
       <section className={styles.blur}></section>

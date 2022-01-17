@@ -6,12 +6,12 @@ import { Layout } from "@zvone123321/mylibrary";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout
-      background="#939090"
-      color="white"
+      background="#DAD9D9"
+      color="black"
       items={[
-        { label: "Početna", link: "/" },
-        { label: "Galerija", link: "/Galerija" },
-        { label: "Kontakt", link: "/Kontakt" },
+        { label: "POČETNA", link: "/" },
+        { label: "GALERIJA", link: "/Galerija" },
+        { label: "KONTAKT", link: "/Kontakt" },
       ]}
     >
       <Component {...pageProps} />
